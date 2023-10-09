@@ -4,45 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a31b925-38cd-42b0-b79a-690c93a5bcc2" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP_48938.postman_collection.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TP_48938/Tp48938Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/primerparcialback_48938/primerparcialback48938Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TP_48938/controllers/AutorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/primerparcialback_48938/controllers/AutorController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TP_48938/controllers/BaseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/primerparcialback_48938/controllers/BaseController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TP_48938/controllers/BaseControllerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/primerparcialback_48938/controllers/BaseControllerImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TP_48938/controllers/DomicilioController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/primerparcialback_48938/controllers/DomicilioController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TP_48938/controllers/LibroController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/primerparcialback_48938/controllers/LibroController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TP_48938/controllers/LocalidadController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/primerparcialback_48938/controllers/LocalidadController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TP_48938/controllers/PersonaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/primerparcialback_48938/controllers/PersonaController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TP_48938/entities/Autor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/primerparcialback_48938/entities/Autor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TP_48938/entities/Base.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/primerparcialback_48938/entities/Base.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TP_48938/entities/Domicilio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/primerparcialback_48938/entities/Domicilio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TP_48938/entities/Libro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/primerparcialback_48938/entities/Libro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TP_48938/entities/Localidad.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/primerparcialback_48938/entities/Localidad.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TP_48938/entities/Persona.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/primerparcialback_48938/entities/Persona.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TP_48938/repositories/AutorRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/primerparcialback_48938/repositories/AutorRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TP_48938/repositories/BaseRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/primerparcialback_48938/repositories/BaseRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TP_48938/repositories/DomicilioRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/primerparcialback_48938/repositories/DomicilioRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TP_48938/repositories/LibroRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/primerparcialback_48938/repositories/LibroRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TP_48938/repositories/LocalidadRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/primerparcialback_48938/repositories/LocalidadRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TP_48938/repositories/PersonaRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/primerparcialback_48938/repositories/PersonaRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TP_48938/services/AutorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/primerparcialback_48938/services/AutorService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TP_48938/services/AutorServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/primerparcialback_48938/services/AutorServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TP_48938/services/BaseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/primerparcialback_48938/services/BaseService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TP_48938/services/BaseServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/primerparcialback_48938/services/BaseServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TP_48938/services/DomicilioService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/primerparcialback_48938/services/DomicilioService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TP_48938/services/DomicilioServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/primerparcialback_48938/services/DomicilioServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TP_48938/services/LibroService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/primerparcialback_48938/services/LibroService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TP_48938/services/LibroServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/primerparcialback_48938/services/LibroServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TP_48938/services/LocalidadService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/primerparcialback_48938/services/LocalidadService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TP_48938/services/LocalidadServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/primerparcialback_48938/services/LocalidadServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TP_48938/services/PersonaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/primerparcialback_48938/services/PersonaService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TP_48938/services/PersonaServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/primerparcialback_48938/services/PersonaServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TP_48938/Tp48938ApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/primerparcialback_48938/primerparcialback48938ApplicationTests.java" afterDir="false" />
-    </list>
+    <list default="true" id="2a31b925-38cd-42b0-b79a-690c93a5bcc2" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -68,14 +30,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/Theo/OneDrive/Escritorio/primerparcialback_48938"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Theo/OneDrive/Escritorio/primerparcialback_48938&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

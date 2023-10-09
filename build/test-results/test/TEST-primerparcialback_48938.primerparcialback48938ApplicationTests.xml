@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="primerparcialback_48938.primerparcialback48938ApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-10-09T21:10:18" hostname="DESKTOP-OD8VIKC" time="0.365">
+<testsuite name="primerparcialback_48938.primerparcialback48938ApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-10-09T22:59:01" hostname="DESKTOP-OD8VIKC" time="0.362">
   <properties/>
-  <testcase name="contextLoads()" classname="primerparcialback_48938.primerparcialback48938ApplicationTests" time="0.365"/>
-  <system-out><![CDATA[18:10:15.006 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [primerparcialback_48938.primerparcialback48938ApplicationTests]: primerparcialback48938ApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-18:10:15.087 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration primerparcialback_48938.primerparcialback48938Application for test class primerparcialback_48938.primerparcialback48938ApplicationTests
+  <testcase name="contextLoads()" classname="primerparcialback_48938.primerparcialback48938ApplicationTests" time="0.362"/>
+  <system-out><![CDATA[19:58:57.134 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [primerparcialback_48938.primerparcialback48938ApplicationTests]: primerparcialback48938ApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+19:58:57.206 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration primerparcialback_48938.primerparcialback48938Application for test class primerparcialback_48938.primerparcialback48938ApplicationTests
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -13,20 +13,20 @@
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::                (v3.1.4)
 
-2023-10-09T18:10:15.393-03:00  INFO 9544 --- [    Test worker] p.primerparcialback48938ApplicationTests : Starting primerparcialback48938ApplicationTests using Java 17.0.7 with PID 9544 (started by Theo in C:\Users\Theo\OneDrive\Escritorio\primerparcialback_48938)
-2023-10-09T18:10:15.394-03:00  INFO 9544 --- [    Test worker] p.primerparcialback48938ApplicationTests : No active profile set, falling back to 1 default profile: "default"
-2023-10-09T18:10:15.870-03:00  INFO 9544 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2023-10-09T18:10:15.929-03:00  INFO 9544 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 52 ms. Found 5 JPA repository interfaces.
-2023-10-09T18:10:16.341-03:00  INFO 9544 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2023-10-09T18:10:16.412-03:00  INFO 9544 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.9.Final
-2023-10-09T18:10:16.414-03:00  INFO 9544 --- [    Test worker] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
-2023-10-09T18:10:16.547-03:00  INFO 9544 --- [    Test worker] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
-2023-10-09T18:10:16.663-03:00  INFO 9544 --- [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2023-10-09T18:10:16.676-03:00  INFO 9544 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2023-10-09T18:10:16.829-03:00  INFO 9544 --- [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:./parcial_48938 user=SA
-2023-10-09T18:10:16.830-03:00  INFO 9544 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2023-10-09T18:10:17.047-03:00  INFO 9544 --- [    Test worker] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
-2023-10-09T18:10:17.570-03:00  INFO 9544 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-09T19:58:57.513-03:00  INFO 9744 --- [    Test worker] p.primerparcialback48938ApplicationTests : Starting primerparcialback48938ApplicationTests using Java 17.0.7 with PID 9744 (started by Theo in C:\Users\Theo\OneDrive\Escritorio\primerparcialback_48938)
+2023-10-09T19:58:57.514-03:00  INFO 9744 --- [    Test worker] p.primerparcialback48938ApplicationTests : No active profile set, falling back to 1 default profile: "default"
+2023-10-09T19:58:57.982-03:00  INFO 9744 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-09T19:58:58.044-03:00  INFO 9744 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 54 ms. Found 5 JPA repository interfaces.
+2023-10-09T19:58:58.436-03:00  INFO 9744 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-09T19:58:58.513-03:00  INFO 9744 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.9.Final
+2023-10-09T19:58:58.515-03:00  INFO 9744 --- [    Test worker] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-10-09T19:58:58.651-03:00  INFO 9744 --- [    Test worker] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-10-09T19:58:58.766-03:00  INFO 9744 --- [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-10-09T19:58:58.780-03:00  INFO 9744 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-10-09T19:58:58.933-03:00  INFO 9744 --- [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:./parcial_48938 user=SA
+2023-10-09T19:58:58.934-03:00  INFO 9744 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-10-09T19:58:59.147-03:00  INFO 9744 --- [    Test worker] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-10-09T19:58:59.704-03:00  INFO 9744 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
 Hibernate: create table autor (id bigint generated by default as identity, apellido varchar(255), biografia varchar(1500), nombre varchar(255), primary key (id))
 Hibernate: create table domicilio (id bigint generated by default as identity, calle varchar(255), numero integer, fk_localidad bigint not null, primary key (id))
 Hibernate: create table libro (id bigint generated by default as identity, fecha integer, genero varchar(255), paginas integer, titulo varchar(255), primary key (id))
@@ -44,10 +44,11 @@ Hibernate: alter table if exists libro_autores add constraint FKsoheqe18ertlksjn
 Hibernate: alter table if exists persona add constraint FKdvcd83wmvj0mwmbu3kyoisobn foreign key (fk_domicilio) references domicilio
 Hibernate: alter table if exists persona_libro add constraint FK6oar3k71e0huyyjlxd0a8qnct foreign key (libro_id) references libro
 Hibernate: alter table if exists persona_libro add constraint FKd8c57cn01g1qhcax4yanhi2o4 foreign key (persona_id) references persona
-2023-10-09T18:10:17.630-03:00  INFO 9544 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2023-10-09T18:10:18.199-03:00  WARN 9544 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2023-10-09T18:10:18.713-03:00  INFO 9544 --- [    Test worker] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:./parcial_48938'
-2023-10-09T18:10:18.759-03:00  INFO 9544 --- [    Test worker] p.primerparcialback48938ApplicationTests : Started primerparcialback48938ApplicationTests in 3.538 seconds (process running for 4.497)
+2023-10-09T19:58:59.772-03:00  INFO 9744 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-09T19:59:00.287-03:00  INFO 9744 --- [    Test worker] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2023-10-09T19:59:00.910-03:00  WARN 9744 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-09T19:59:01.489-03:00  INFO 9744 --- [    Test worker] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:./parcial_48938'
+2023-10-09T19:59:01.551-03:00  INFO 9744 --- [    Test worker] p.primerparcialback48938ApplicationTests : Started primerparcialback48938ApplicationTests in 4.209 seconds (process running for 5.052)
 Hibernate: insert into localidad (denominacion,id) values (?,default)
 Hibernate: insert into domicilio (calle,fk_localidad,numero,id) values (?,?,?,default)
 Hibernate: insert into persona (apellido,dni,fk_domicilio,nombre,id) values (?,?,?,?,default)

@@ -1,7 +1,7 @@
 {
 	"info": {
-		"_postman_id": "099a52c5-e115-4b2e-96a4-7d4efce295cc",
-		"name": "TP_48938",
+		"_postman_id": "fa68490f-03bc-40ac-b41e-2a29fccd6fe2",
+		"name": "primerparcialback_48938",
 		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
 		"_exporter_id": "24885877"
 	},
@@ -408,7 +408,7 @@
 					"response": []
 				},
 				{
-					"name": "POST localidad",
+					"name": "POST persona",
 					"request": {
 						"method": "POST",
 						"header": [
@@ -461,6 +461,116 @@
 						"method": "DELETE",
 						"header": [],
 						"url": "http://localhost:8080/api/v1/persona/2"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Queries",
+			"item": [
+				{
+					"name": "SEARCH",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/persona/search?filtro=Theo",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"persona",
+								"search"
+							],
+							"query": [
+								{
+									"key": "filtro",
+									"value": "Theo"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Paginacion",
+			"item": [
+				{
+					"name": "GET ALL paged",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/persona/paged?page=0&size=3&sort=id,asc",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"persona",
+								"paged"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "0"
+								},
+								{
+									"key": "size",
+									"value": "3"
+								},
+								{
+									"key": "sort",
+									"value": "id,asc"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "SEARCH paged",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/persona/searchPaged?filtro=Theo&page=0&size=5",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"persona",
+								"searchPaged"
+							],
+							"query": [
+								{
+									"key": "filtro",
+									"value": "Theo"
+								},
+								{
+									"key": "page",
+									"value": "0"
+								},
+								{
+									"key": "size",
+									"value": "5"
+								}
+							]
+						}
 					},
 					"response": []
 				}

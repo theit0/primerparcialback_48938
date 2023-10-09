@@ -1,4 +1,5 @@
 package primerparcialback_48938.controllers;
+import org.springframework.data.domain.Pageable;
 import primerparcialback_48938.entities.Base;
 import primerparcialback_48938.services.BaseServiceImpl;
 
@@ -21,6 +22,15 @@ public abstract class BaseControllerImpl<E extends Base, S extends BaseServiceIm
             return ResponseEntity.status(HttpStatus.NOT_FOUND).body("{\"error\":\"Error. Por favor intente más tarde.\"}");
         }
     }
+    @GetMapping("/paged")
+    public ResponseEntity<?> getAll(Pageable pageable) {
+        try {
+            return ResponseEntity.status(HttpStatus.OK).body(servicio.findAll(pageable));
+        } catch (Exception e) {
+            return ResponseEntity.status(HttpStatus.NOT_FOUND).body("{\"error\":\"Error. Por favor intente más tarde.\"}");
+        }
+    }
+
 
     @GetMapping("/{id}")
     public ResponseEntity<?> getOne(@PathVariable Long id) {

@@ -1,0 +1,470 @@
+{
+	"info": {
+		"_postman_id": "099a52c5-e115-4b2e-96a4-7d4efce295cc",
+		"name": "TP_48938",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "24885877"
+	},
+	"item": [
+		{
+			"name": "Autores",
+			"item": [
+				{
+					"name": "GET autores",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "http://localhost:8080/api/v1/autores"
+					},
+					"response": []
+				},
+				{
+					"name": "GET autor",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:8080/api/v1/autores/1"
+					},
+					"response": []
+				},
+				{
+					"name": "POST autor",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"id\": 1,\r\n    \"nombre\": \"NombreAutor\",\r\n    \"apellido\": \"ApellidoAutor\",\r\n    \"biografia\": \"DescripcionAutor\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:8080/api/v1/autores"
+					},
+					"response": []
+				},
+				{
+					"name": "PUT autores",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "\r\n{\r\n    \"id\": 3,\r\n    \"nombre\": \"NombreAutorNuevo\",\r\n    \"apellido\": \"NombreAutorNuevo\",\r\n    \"biografia\": \"NombreAutorNuevo\"\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:8080/api/v1/usuarios/3"
+					},
+					"response": []
+				},
+				{
+					"name": "DELETE autor",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": "http://localhost:8080/api/v1/usuarios/2"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Domicilios",
+			"item": [
+				{
+					"name": "GET domicilios",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "http://localhost:8080/api/v1/domicilio"
+					},
+					"response": []
+				},
+				{
+					"name": "GET domicilio",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:8080/api/v1/domicilio/1"
+					},
+					"response": []
+				},
+				{
+					"name": "POST domicilio",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"id\": 1,\r\n    \"calle\": \"CalleDePrueba\",\r\n    \"numero\": 31312,\r\n    \"localidad\": {\r\n        \"id\": 1,\r\n        \"denominacion\": \"LocalidadDePrueba\"\r\n    }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:8080/api/v1/domicilio"
+					},
+					"response": []
+				},
+				{
+					"name": "PUT domicilio",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"id\": 1,\r\n    \"calle\": \"CalleDePruebaNuevo\",\r\n    \"numero\": 31312,\r\n    \"localidad\": {\r\n        \"id\": 1,\r\n        \"denominacion\": \"CalleDePruebaNuevo\"\r\n    }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:8080/api/v1/domicilio/3"
+					},
+					"response": []
+				},
+				{
+					"name": "DELETE domicilio",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": "http://localhost:8080/api/v1/domicilio/2"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Libros",
+			"item": [
+				{
+					"name": "GET libros",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "http://localhost:8080/api/v1/libro"
+					},
+					"response": []
+				},
+				{
+					"name": "GET libro",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:8080/api/v1/libro/1"
+					},
+					"response": []
+				},
+				{
+					"name": "POST libro",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"id\": 1,\r\n    \"titulo\": \"TituloLibro\",\r\n    \"fecha\": 23,\r\n    \"genero\": \"Genero: 1\",\r\n    \"paginas\": 2,\r\n    \"autores\": []\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:8080/api/v1/libro"
+					},
+					"response": []
+				},
+				{
+					"name": "PUT libro",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"id\": 3,\r\n    \"titulo\": \"TituloLibroNuevo\",\r\n    \"fecha\": 23,\r\n    \"genero\": \"Genero: 1\",\r\n    \"paginas\": 2,\r\n    \"autores\": []\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:8080/api/v1/libro/3"
+					},
+					"response": []
+				},
+				{
+					"name": "DELETE libro",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": "http://localhost:8080/api/v1/libro/2"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Localidad",
+			"item": [
+				{
+					"name": "GET localidades",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "http://localhost:8080/api/v1/localidad"
+					},
+					"response": []
+				},
+				{
+					"name": "GET localidad",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:8080/api/v1/localidad/1"
+					},
+					"response": []
+				},
+				{
+					"name": "POST localidad",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"id\": 1,\r\n    \"denominacion\": \"LocalidadDePrueba\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:8080/api/v1/localidad"
+					},
+					"response": []
+				},
+				{
+					"name": "PUT localidad",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"id\": 1,\r\n    \"denominacion\": \"LocalidadDePruebaNuevo\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:8080/api/v1/localidad/3"
+					},
+					"response": []
+				},
+				{
+					"name": "DELETE localidad",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": "http://localhost:8080/api/v1/localidad/2"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Personas",
+			"item": [
+				{
+					"name": "GET personas",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "http://localhost:8080/api/v1/persona"
+					},
+					"response": []
+				},
+				{
+					"name": "GET persona",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:8080/api/v1/persona/1"
+					},
+					"response": []
+				},
+				{
+					"name": "POST localidad",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"id\": 1,\r\n    \"nombre\": \"Theo\",\r\n    \"apellido\": \"Pelegrina\",\r\n    \"dni\": 342432,\r\n    \"domicilio\": {\r\n        \"id\": 1,\r\n        \"calle\": \"CalleDePrueba\",\r\n        \"numero\": 31312,\r\n        \"localidad\": {\r\n            \"id\": 1,\r\n            \"denominacion\": \"LocalidadDePrueba\"\r\n        }\r\n    }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:8080/api/v1/persona"
+					},
+					"response": []
+				},
+				{
+					"name": "PUT persona",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"id\": 1,\r\n    \"nombre\": \"Theo\",\r\n    \"apellido\": \"Pelegrina\",\r\n    \"dni\": 342432,\r\n    \"domicilio\": {\r\n        \"id\": 1,\r\n        \"calle\": \"LocalidadDePruebaNuevo\",\r\n        \"numero\": 31312,\r\n        \"localidad\": {\r\n            \"id\": 1,\r\n            \"denominacion\": \"LocalidadDePruebaNuevo\"\r\n        }\r\n    }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:8080/api/v1/persona/3"
+					},
+					"response": []
+				},
+				{
+					"name": "DELETE persona",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": "http://localhost:8080/api/v1/persona/2"
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

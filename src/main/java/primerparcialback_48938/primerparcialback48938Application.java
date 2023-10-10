@@ -7,6 +7,10 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
+
+import java.util.ArrayList;
+import java.util.List;
+
 @SpringBootApplication
 public class primerparcialback48938Application {
 	@Autowired
@@ -40,28 +44,52 @@ public class primerparcialback48938Application {
 						.localidad(localidad)
 						.build();
 				domicilioRepository.save(domicilio);
+
+				Autor autor = Autor.builder()
+						.nombre("AutorPrueba")
+						.apellido("ApellidoPrueba")
+						.biografia("BiografiaDePrueba")
+						.build();
+				autorRepository.save(autor);
+
+				List<Autor> autores = new ArrayList<Autor>();
+				autores.add(autor);
+
+				Libro libro = Libro.builder()
+						.fecha(23)
+						.genero("GeneroDePrueba")
+						.titulo("TituloLibro")
+						.paginas(2)
+						.autores(autores)
+						.build();
+				libroRepository.save(libro);
+				Libro libro2 = Libro.builder()
+						.fecha(23)
+						.genero("GeneroDePrueba")
+						.titulo("TituloLibro2")
+						.paginas(5)
+						.build();
+				libroRepository.save(libro2);
+
+				List<Libro> libros = new ArrayList<Libro>();
+				libros.add(libro);
+				libros.add(libro2);
+
 				Persona persona = Persona.builder()
 						.nombre("Theo")
 						.apellido("Pelegrina")
 						.domicilio(domicilio)
 						.dni(342432)
+						.libros(libros)
 						.build();
 				personaRepository.save(persona);
-				Libro libro = Libro.builder()
-						.fecha(23)
-						.genero("Genero: "+ 1)
-						.titulo("TituloLibro")
-						.paginas(2)
-						.build();
-				libroRepository.save(libro);
-				Autor autor = Autor.builder()
+				Autor autor1 = Autor.builder()
 						.nombre("NombreAutor")
 						.apellido("ApellidoAutor")
 						.biografia("DescripcionAutor")
 						.build();
-				autorRepository.save(autor);
+				autorRepository.save(autor1);
 			}
-
 		};
 	}
 }

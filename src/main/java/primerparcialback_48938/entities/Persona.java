@@ -14,7 +14,6 @@ import java.util.List;
 @AllArgsConstructor
 @Getter
 @Setter
-@JsonIgnoreProperties("libros")// Ignora la propiedad libros al serializar a JSON
 @Builder
 public class Persona extends Base {
 
@@ -31,13 +30,12 @@ public class Persona extends Base {
     @JoinColumn(name = "fk_domicilio")
     private Domicilio domicilio;
 
-    @OneToMany(cascade = CascadeType.ALL, orphanRemoval = true)
+    @OneToMany(cascade = CascadeType.REFRESH, orphanRemoval = true)
     @JoinTable(
             name = "persona_libro",
             joinColumns = @JoinColumn(name = "persona_id"),
             inverseJoinColumns = @JoinColumn(name = "libro_id")
     )
-
     private List<Libro> libros = new ArrayList<Libro>();
 
 }

@@ -4,6 +4,7 @@ import jakarta.persistence.*;
 import lombok.*;
 
 
+import java.util.ArrayList;
 import java.util.List;
 
 @Entity
@@ -24,5 +25,5 @@ public class Libro extends Base{
     private int paginas;
 
     @ManyToMany(cascade = CascadeType.REFRESH)
-    private List<Autor> autores;
+    private List<Autor> autores = new ArrayList<Autor>();
 }

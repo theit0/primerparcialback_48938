@@ -13,7 +13,6 @@ import java.util.List;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-@Builder
 public class Libro extends Base{
     @Column(name = "titulo")
     private String titulo;

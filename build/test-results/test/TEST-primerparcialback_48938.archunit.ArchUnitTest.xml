@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="primerparcialback_48938.archunit.ArchUnitTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2023-10-11T19:24:59" hostname="DESKTOP-OD8VIKC" time="0.882">
+  <properties/>
+  <testcase name="layerRule" classname="primerparcialback_48938.archunit.ArchUnitTest" time="0.872"/>
+  <testcase name="controllerNameRule" classname="primerparcialback_48938.archunit.ArchUnitTest" time="0.001"/>
+  <testcase name="controllerBaseRule" classname="primerparcialback_48938.archunit.ArchUnitTest" time="0.004"/>
+  <testcase name="serviceNameRule" classname="primerparcialback_48938.archunit.ArchUnitTest" time="0.0"/>
+  <testcase name="serviceBaseRule" classname="primerparcialback_48938.archunit.ArchUnitTest" time="0.001"/>
+  <testcase name="repositoryNameRule" classname="primerparcialback_48938.archunit.ArchUnitTest" time="0.001"/>
+  <testcase name="entitiesAnnotation" classname="primerparcialback_48938.archunit.ArchUnitTest" time="0.003"/>
+  <system-out><![CDATA[16:24:59.679 [Test worker] INFO com.tngtech.archunit.core.PluginLoader -- Detected Java version 17.0.7
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

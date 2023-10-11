@@ -1,7 +1,6 @@
 package primerparcialback_48938;
 
-import primerparcialback_48938.entities.*;
-import primerparcialback_48938.repositories.*;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
@@ -13,22 +12,13 @@ import java.util.List;
 
 @SpringBootApplication
 public class primerparcialback48938Application {
-	@Autowired
-	AutorRepository autorRepository;
-	@Autowired
-	DomicilioRepository domicilioRepository;
-	@Autowired
-	LibroRepository libroRepository;
-	@Autowired
-	LocalidadRepository localidadRepository;
-	@Autowired
-	PersonaRepository personaRepository;
 
 
 	public static void main(String[] args) {
 		SpringApplication.run(primerparcialback48938Application.class, args);
 	}
 
+	/*
 	@Bean
 	CommandLineRunner init(PersonaRepository personaRepository, AutorRepository autorRepository, DomicilioRepository domicilioRepository, LibroRepository libroRepository, LocalidadRepository localidadRepository) {
 		return args -> {
@@ -91,5 +81,5 @@ public class primerparcialback48938Application {
 				autorRepository.save(autor1);
 
 		};
-	}
+	}*/
 }

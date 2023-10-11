@@ -33,7 +33,7 @@ public class primerparcialback48938Application {
 	CommandLineRunner init(PersonaRepository personaRepository, AutorRepository autorRepository, DomicilioRepository domicilioRepository, LibroRepository libroRepository, LocalidadRepository localidadRepository) {
 		return args -> {
 
-			for(int i = 0; i<=20; i++){
+
 				Localidad localidad  = Localidad.builder()
 						.denominacion("LocalidadDePrueba")
 						.build();
@@ -89,7 +89,7 @@ public class primerparcialback48938Application {
 						.biografia("DescripcionAutor")
 						.build();
 				autorRepository.save(autor1);
-			}
+
 		};
 	}
 }

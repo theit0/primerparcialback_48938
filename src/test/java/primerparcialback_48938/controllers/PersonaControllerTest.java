@@ -42,7 +42,7 @@ public class PersonaControllerTest {
                 .param("filtro","Edison")
                 .contentType(MediaType.APPLICATION_JSON))
                 .andExpect(status().isOk())
-                .andExpect(jsonPath("$[0].nombre",is("Pablo")))
+                .andExpect(jsonPath("$[0].nombre",is("Edison")))
                 .andExpect(jsonPath("$[0].apellido",is("Cavani")));
     }
 }

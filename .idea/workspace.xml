@@ -57,7 +57,7 @@
     &quot;last_opened_file_path&quot;: &quot;C:/Users/Theo/OneDrive/Escritorio/prueba/primerparcialback_48938-main&quot;
   }
 }</component>
-  <component name="RunManager" selected="Gradle.ArchUnitTest">
+  <component name="RunManager" selected="Gradle.PersonaControllerIntegration.testSearchString">
     <configuration name="ArchUnitTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -104,29 +104,6 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="PersonaControllerTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;primerparcialback_48938.controllers.PersonaControllerTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
     <configuration name="PersonaControllerTest.testSearchString" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -141,6 +118,29 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;primerparcialback_48938.controllers.PersonaControllerTest.testSearchString&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="PersonaRepositoryTest.testSearchString" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;primerparcialback_48938.repositories.PersonaRepositoryTest.testSearchString&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -175,11 +175,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.ArchUnitTest" />
-        <item itemvalue="Gradle.PersonaControllerTest.testSearchString" />
         <item itemvalue="Gradle.PersonaControllerIntegration.testSearchString" />
-        <item itemvalue="Gradle.PersonaControllerTest" />
+        <item itemvalue="Gradle.PersonaRepositoryTest.testSearchString" />
         <item itemvalue="Gradle.PersonaServiceImplTest" />
+        <item itemvalue="Gradle.PersonaControllerTest.testSearchString" />
+        <item itemvalue="Gradle.ArchUnitTest" />
       </list>
     </recent_temporary>
   </component>

@@ -33,6 +33,7 @@ dependencies {
 	testImplementation 'com.tngtech.archunit:archunit-junit5:1.1.0'
 	testImplementation 'org.junit.jupiter:junit-jupiter:5.7.1'
 	testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+	testImplementation 'com.tngtech.archunit:archunit-junit5:1.1.0'
 }
 
 tasks.named('test') {
